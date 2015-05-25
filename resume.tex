@@ -1,0 +1,186 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.1 (9/12/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{casual} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{green} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage[scale=0.75]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Melvyn Ian} % Your first name
+\familyname{Drag} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{Curriculum Vitae}
+\address{464 E Oakland Ave}{Columbus, OH 43202}
+\mobile{(201) 443 7660}
+\email{melvyniandrag@gmail.com}
+%\homepage{staff.org.edu/~jsmith}{staff.org.edu/$\sim$jsmith} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+%\extrainfo{additional information}
+\photo[70pt][0.4pt]{picture} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+%\quote{"A witty and playful quotation" - John Smith}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makecvtitle % Print the CV title
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\cventry{Summer 2015}{Workshop and Tutorial on PETSc}{Argonne National Lab}{}{Learning how to use the PETSc library for solving partial differential equations. Also, learning about how other software uses this library, and how to use these more advanced scientific programs}{}{}
+
+\cventry{2013--2015}{Master of Mathematical Science: Computational Science.}{The Ohio State University}{}{Studied analytical and numerical methods for PDEs, parallel computing, advanced algorithms.}{}{}  % Arguments not required can be left empty
+
+\cventry{2008-2012}{BA Mathematics}{New Jersey City University}{Typical undergraduate mathematics degree with classes in Abstract Algebra, Differential Equations, Number Theory, Vector Calculus,  and other fundamental mathematical subjects}{Several credits short of double major in Spanish}{}
+
+\cventry{Summer 2010}{Study Abroad}{Universidad San Francisco de Quito, Ecuador}{Summer classes in chemistry and Spanish composition}{}{}
+
+\section{Masters Thesis}
+
+\cvitem{Title}{\emph{GrowFlesh: the Lightweight, Optimizable Epithelial Tissue Simulator}}
+\cvitem{Supervisors}{Dr. Marcos M. Sotomayor \& Dr. Ed Overman}
+\cvitem{Description}{In this paper I present an overview of the competitive models of epithelial tissue growth and outline the details of an efficient, parallel implementation of one of the best models. I describe my datastructures, and explain how my source code can be easily extended to handle other models of epithelial tissue growth. My code was fault tolerant, numerically stable. The model was coded in a combination of C++, CUDA, Python, and BASH.}
+
+\section{Programming Projects}
+\cvitem{matplotlib}{Documentation contributor to python plotting library}
+\cvitem{Assault Cube Hack}{Modded version of a popular, lightweight first person shooter.}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Experience}
+
+\subsection{Relevant Work Experience}
+
+\cventry{Jan 2015 - Present}{Research Scientist/Co-Op}{\textsc{Battelle Memorial Institute}}{Columbus}{}{Write Python scripts to move data from Oracle, Access and PostgreSQL databases to excel spreadsheets. Generate graphs in excel and in a variety of python plotting libraries for use in presentations to government agencies and other clients. Development of a popular terrorism risk analysis tool with the careful guidance of a accomplished statistician.  }
+
+%------------------------------------------------
+
+\cventry{2014-Present}{GRE Instructor, Marketing Agent}{\textsc{The Princeton Review}}{Columbus}{}{Highly rated teacher by all classes taught. Frequent presenter at marketing events.}
+
+\cventry{Fall 2014}{Calculus Recitation Instructor}{\textsc{The Ohio State University}}{}{}{Highly rated instructor.}
+
+\cventry{Fall 2008 - Spring 2013}{Mathematics Tutor}{\textsc{New Jersey City University}}{}{}{Tutored all levels of undergraduate mathematics}
+
+\cventry{Fall 2008 - Spring 2013}{Private Mathematics Tutor}{}{}{}{Tutored high school and college students on a one on one basis. Strong References}
+%------------------------------------------------
+
+\subsection{Miscellaneous}
+
+\cventry{2007 - 2012}{Waiter}{Houlihans and The Broadway Diner}{Bayonne, NJ}{}{A weekend job to supplement my income during my undergraduate years.}
+
+%----------------------------------------------------------------------------------------
+%	AWARDS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Academic Awards}
+
+\cvitem{2015}{Rhodes Graduate Fellowship for Computational Scientists, OSU}
+\cvitem{Summer 2014}{Travel grant from OSU to attend Scipy conference in Austin (scientific computing in Python conference.)}
+\cvitem{2013-2014}{Graduate Fellowship, OSU}
+\cvitem{2012}{Grossnickle Scholarship, NJCU. For the senior with the highest GPA.}
+\cvitem{2008-2012}{Presidential Scholarship (Full Tuition), NJCU}
+\cvitem{2011}{12th place out of approximately 100 at the Garden State Undergraduate Mathematics Contest}
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Computer skills}
+\cvitem{Advanced}{C++, Python, CUDA, MPI, openMP, \LaTeX, Debian flavors of Linux, Bash, Excel, SQL, Oracle, PostgreSQL, Access, git.}
+\cvitem{Basic}{\textsc{java}, Haskell, CLISP, GIS}
+
+
+
+%----------------------------------------------------------------------------------------
+%	COMMUNICATION SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Recent Presentations}
+\cvitem{2015}{Battelle. "Git's Internals".}
+\cvitem{2014}{PyOhio conference. "Solving the Heat Equation in Python".}
+\cvitem{2014}{Columbus Code Camp. "Soft Error Vulnerability in Sparse Matrix Vector Products".}
+\cvitem{2014}{OSU. "A Tour of Linear Algebra Libraries in C++ and Python".}
+\cvitem{2014}{Python Monthly Meeting. "Cache efficient Python".}
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Languages}
+
+\cvitemwithcomment{English}{Mothertongue}{}
+\cvitemwithcomment{Spanish}{Intermediate}{Conversationally fluent}
+\cvitemwithcomment{Portuguese}{Basic}{Reading proficiency}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+ emails \section{Interests}
+
+\renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+
+\cvlistdoubleitem{Piano}{Chess}
+\cvlistdoubleitem{Cooking}{Dancing}
+\cvlistitem{Running}
+
+%----------------------------------------------------------------------------------------
+%	COVER LETTER
+%----------------------------------------------------------------------------------------
+
+% To remove the cover letter, comment out this entire block
+
+\clearpage
+
+\recipient{HR Departmnet}{Corporation\\123 Pleasant Lane\\12345 City, State} % Letter recipient
+\date{\today} % Letter date
+\opening{Dear Sir or Madam,} % Opening greeting
+\closing{Sincerely yours,} % Closing phrase
+\enclosure[Attached]{curriculum vit\ae{}} % List of enclosed documents
+
+\makelettertitle % Print letter title
+
+\lipsum[1-3] % Dummy text
+
+\makeletterclosing % Print letter signature
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
