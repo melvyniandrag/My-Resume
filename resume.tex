@@ -26,7 +26,7 @@
 \documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
 
 \moderncvstyle{casual} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
-\moderncvcolor{green} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
 
 \usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
 
@@ -43,12 +43,10 @@
 
 % All information in this block is optional, comment out any lines you don't need
 \title{Curriculum Vitae}
-\address{464 E Oakland Ave}{Columbus, OH 43202}
+\address{416 Plymouth Road}{North Brunswick, NJ 08902}
 \mobile{(201) 443 7660}
 \email{melvyniandrag@gmail.com}
 %\homepage{staff.org.edu/~jsmith}{staff.org.edu/$\sim$jsmith} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
-%\extrainfo{additional information}
-\photo[70pt][0.4pt]{picture} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
 %\quote{"A witty and playful quotation" - John Smith}
 
 %----------------------------------------------------------------------------------------
@@ -56,6 +54,33 @@
 \begin{document}
 
 \makecvtitle % Print the CV title
+\section{Highlights}
+Desire to work on challenging problems that require clever algorithm design as well as intimate knowledge of specific languages. Mathematically sophisticated computer scientist. Skilled in OOP, functional programming, GPU computing, web development, and data visualization. Favorite algorithms are the Conjugate Gradient Method, Huffman Coding, and the Horner Rule.
+
+\section{Sample Programming Projects}
+\cvitem{8 Color Network}{Network analysis tool for studying the evolution of unstructured networks with local interactions.}
+\cvitem{Epithelium}{Master's Thesis. Simulator of the development of epithelial tissue.}
+\cvitem{Python Chess}{Implemented advanced moves such as pawn promotion in an unfinished game found on github.}
+\cvitem{Assault Cube - MyMod}{Modified version of a popular first person shooter. Added maps, changed physics, modified graphics, etc.}
+\cvitem{Heat Solver}{PDE solver with many visualization options.}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Relevant Work Experience}
+\cventry{August 2015}{Instructor}{\textsc{The Ohio State University}}{Columbus}{}{Taught two summer classes: \textit{Essentials of Numerical Methods} and \textit{Introduction to Python Programming}.}
+
+\cventry{Jan 2015 - September 2015}{Modeler/Engineer}{\textsc{Battelle Memorial Institute}}{Columbus}{}{Development of powerful terrorism risk analysis tool in C++, Python and MPI. Co-Developer of Excel-based risk tool with rich functionality provided through VBA macros. Simple system administration tasks. Regular user of Oracle /  Postgres / Access DBs.}
+
+\cventry{2014-Present}{GRE Instructor, Marketing Agent}{\textsc{The Princeton Review}}{Columbus}{}{Highly rated instructor. Presenter at marketing events.}
+
+\cventry{Fall 2014}{Calculus Recitation Instructor}{\textsc{The Ohio State University}}{}{}{Highly rated instructor.}
+
+\cventry{Fall 2008 - Spring 2013}{Mathematics Tutor}{\textsc{New Jersey City University, Hudson County Community College}}{}{}{Tutored all levels of undergraduate mathematics}
+
+\cventry{Fall 2008 - Spring 2013}{Private Mathematics Tutor}{}{}{}{Tutored high school and college students on a one on one basis.}
+
 
 %----------------------------------------------------------------------------------------
 %	EDUCATION SECTION
@@ -65,36 +90,11 @@
 
 \cventry{Summer 2015}{Workshop and Tutorial on PETSc}{Argonne National Lab}{}{Learn to use the PETSc library for solving partial differential equations}{}{}
 
-\cventry{2013--2015}{Master of Mathematical Science: Computational Science.}{The Ohio State University}{}{Analytical and numerical methods for PDEs, parallel computing, advanced algorithms. Master's thesis: \emph{Epithelium}: The lightweight, portable epithelial tissue simulator. Investigation of pros and cons of various implementations of a model. Exploration of parallelization strategies}{}{}  % Arguments not required can be left empty
+\cventry{2013--2015}{Master of Mathematical Science: Computational Science.}{The Ohio State University}{}{Analytical and numerical methods for PDEs, parallel computing, advanced algorithms. Master's thesis: Epithelial tissue simulation. Investigation of pros and cons of various implementations of a model. Exploration of parallelization strategies}{}{}  % Arguments not required can be left empty
 
 \cventry{2008-2012}{BA Mathematics}{New Jersey City University}{Undergraduate mathematics degree with classes in Abstract Algebra, Differential Equations, Number Theory, Vector Calculus,  and other fundamental mathematical subjects}{Several credits short of double major in Spanish}{}
 
 \cventry{Summer 2010}{Study Abroad}{Universidad San Francisco de Quito, Ecuador}{Summer classes in chemistry and Spanish composition}{}{}
-
-\section{Programming Projects}
-\cvitem{matplotlib}{Documentation contributor to python plotting library.}
-\cvitem{Moon Cube}{Modded version of a popular first person shooter with a peculiar gravitational force.}
-\cvitem{Vid2Sim}{Convert videos of epithelial tissue to data files compatible to simulators.}
-
-%----------------------------------------------------------------------------------------
-%	WORK EXPERIENCE SECTION
-%----------------------------------------------------------------------------------------
-
-\section{Experience}
-
-\subsection{Relevant Work Experience}
-
-\cventry{Jan 2015 - Present}{Modeler/Engineer}{\textsc{Battelle Memorial Institute}}{Columbus}{}{Development of powerful terrorism risk analysis tool. Write Python scripts to move data from Oracle, Access and PostgreSQL databases to Excel spreadsheets. Prepare presentations for government agencies and other clients.}
-
-%------------------------------------------------
-
-\cventry{2014-Present}{GRE Instructor, Marketing Agent}{\textsc{The Princeton Review}}{Columbus}{}{Highly rated instructor. Presenter at marketing events.}
-
-\cventry{Fall 2014}{Calculus Recitation Instructor}{\textsc{The Ohio State University}}{}{}{Highly rated instructor.}
-
-\cventry{Fall 2008 - Spring 2013}{Mathematics Tutor}{\textsc{New Jersey City University, Hudson County Community College}}{}{}{Tutored all levels of undergraduate mathematics}
-
-\cventry{Fall 2008 - Spring 2013}{Private Mathematics Tutor}{}{}{}{Tutored high school and college students on a one on one basis. Strong References}
 
 %----------------------------------------------------------------------------------------
 %	AWARDS SECTION
@@ -107,14 +107,15 @@
 \cvitem{2012}{Grossnickle Scholarship, NJCU. For the senior with the highest GPA.}
 \cvitem{2008-2012}{Presidential Scholarship (Full Tuition), NJCU}
 \cvitem{2011}{12th place out of approximately 100 at the Garden State Undergraduate Mathematics Contest}
+
 %----------------------------------------------------------------------------------------
 %	COMPUTER SKILLS SECTION
 %----------------------------------------------------------------------------------------
 
 \section{Computer skills}
 \cvitem{Essential}{Familiarity with multiple programming paradigms and parallelization strategies.}
-\cvitem{Proficient}{C++, Python, CUDA, openMP, \LaTeX, Debian flavors of Linux, Bash, Excel, SQL, relational databases, git, Excel.}
-\cvitem{Basic}{\textsc{java}, Haskell, CLISP,  MPI, Awk, Windows}
+\cvitem{Proficient}{C++, Python, CUDA, openMP, \LaTeX, Linux, bash, Excel, SQL, git.}
+\cvitem{Basic}{\textsc{java}, Haskell, Scheme,  MPI, Awk, Windows, HTML5, WebGL, d3.js, and more.}
 
 %----------------------------------------------------------------------------------------
 %	COMMUNICATION SKILLS SECTION
@@ -122,8 +123,8 @@
 
 \section{Recent Presentations}
 \cvitem{2015}{OSU and NJCU. "Implementing the Conjugate Gradient Method in Python: A Tutorial."}
-\cvitem{2015}{Scipy 2015. "Vid2Sim: Image to data file tool for epithelial tissue simulators"}
-\cvitem{2015}{Battelle. "Git's Internals".}
+\cvitem{2015}{Battelle. "Finite Difference Methods for Modeling Diffusion."}
+\cvitem{2015}{Battelle. "Epithelial Tissue Simulation."}
 \cvitem{2014}{PyOhio conference. "Solving the Heat Equation in Python".}
 \cvitem{2014}{Columbus Code Camp. "Soft Error Vulnerability in Sparse Matrix Vector Products".}
 \cvitem{2014}{OSU. "A Tour of Linear Algebra Libraries in C++ and Python".}
@@ -133,11 +134,12 @@
 %	LANGUAGES SECTION
 %----------------------------------------------------------------------------------------
 
+
 \section{Languages}
 
 \cvitemwithcomment{English}{Mothertongue}{}
 \cvitemwithcomment{Spanish} {Fluent}{}
-\cvitemwithcomment{Portuguese, Italian}{Basic}{Reading proficiency}
+\cvitemwithcomment{Portuguese, Italian}{Reading and Listening Proficiency.}{}
 
 %----------------------------------------------------------------------------------------
 %	INTERESTS SECTION
@@ -145,30 +147,9 @@
  \section{Interests}
 
 \renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
-\cvlistitem{Foreign languages with good movies, interesting radio programs, and rich literatures.}
+\cvlistitem{Foreign languages with interesting movies and radio programs and rich literatures.}
 \cvlistitem{Dog training.}
 \cvlistitem{Raising my twin boys!}
 
-%----------------------------------------------------------------------------------------
-%	COVER LETTER
-%----------------------------------------------------------------------------------------
-
-% To remove the cover letter, comment out this entire block
-
-\clearpage
-
-\recipient{HR Departmnet}{Corporation\\123 Pleasant Lane\\12345 City, State} % Letter recipient
-\date{\today} % Letter date
-\opening{Dear Sir or Madam,} % Opening greeting
-\closing{Sincerely yours,} % Closing phrase
-\enclosure[Attached]{curriculum vit\ae{}} % List of enclosed documents
-
-\makelettertitle % Print letter title
-
-\lipsum[1-3] % Dummy text
-
-\makeletterclosing % Print letter signature
-
-%----------------------------------------------------------------------------------------
 
 \end{document}
