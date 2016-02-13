@@ -25,8 +25,12 @@
 
 \documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
 
+%\usepackage[T1]{fontenc}
+\usepackage[portuguese, english]{babel}
+\usepackage[utf8]{inputenc}
+
 \moderncvstyle{casual} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
-\moderncvcolor{black} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+\moderncvcolor{orange} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
 
 \usepackage[scale=0.75]{geometry} % Reduce document margins
 
@@ -57,28 +61,30 @@
 \section{Highlights}
 \begin{itemize}
 \item Expert C++ and Python programmer.
+\item Essential linux system knowledge.
 \item Advanced knowledge of data structures, algorithms, and floating point arithmetic. 
-\item Knowledge of GPU computing and web development.
 \item Favorite algorithms are the Conjugate Gradient Method, Huffman Coding, and the Horner Rule.
 \item Interest in optimization.
 \end{itemize}
 
 \section{Sample Programming Projects}
-\cvitem{8 Color Network}{Network analysis tool for studying the evolution of unstructured networks with local interactions.}
-\cvitem{Epithelium}{Master's Thesis. Simulator of the development of epithelial tissue.}
+\cvitem{CRF}{A machine learning classifier which produces very good predictions when given suitably preprocessed data. Written in C++, Python, and R, and makes calls to linear algebra libraries written in Fortran. Written while at Avlino Inc. for Verizon.}
+\cvitem{Heat Solver}{PDE solver with many visualization options. Solves the heat equation in 1 and 2 dimensions. I presented this code as a tutorial at the PyOhio conference in 2014, and the video can be seen online. I still regularly get emails from people all over the US, Europe and South America using my code for their research or teaching}
+\cvitem{Priority Queue Hospital}{I hadn't had a reason to use a priority queue in a while, so I wrote a program in C++ and SDL which uses this data structure. There is a graphical presentation of a hospital waiting room with patients with a variety of illnesses. The patients continuously arrive and a priority queue structure has a `doctor attend to the patient with the most pressing need'. Patients live and die at the mercy of the heap.}
+\cvitem{8 Color Network}{Network analysis tool for studying the evolution of unstructured networks with local interactions. Developed to help a friend who is studying for a PhD in graph theory test some ideas.}
+\cvitem{Epithelium}{Master's Thesis. Simulator of the development of epithelial tissue. Code solves a complicated system of differential equations to evolve the appearance of a tissue and drive the cells to an equilibrium configuration. Uses a number of libraries and programs to make simple animations.}
 \cvitem{Python Chess}{Implemented advanced moves such as pawn promotion in an unfinished game found on github.}
 \cvitem{Assault Cube - MyMod}{Modified version of a popular first person shooter. Added maps, changed physics, modified graphics, etc.}
-\cvitem{Heat Solver}{PDE solver with many visualization options.}
-
 %----------------------------------------------------------------------------------------
 %	WORK EXPERIENCE SECTION
 %----------------------------------------------------------------------------------------
 
 \section{Relevant Work Experience}
-\cventry{October 2015 - Present}{Author, Web Developer, Teacher}{\textsc{Math Genie}}{East Brunswick, NJ}{}{Teaching math classes, developer of company website, and co-author of text books.}
+\cventry{October 2015 - Present}{Lead Data Scientist, Programmer}{\textsc{Avlino, Inc.}}{Holmdel, NJ}{}{Lead developer of machine learning software. Major clients include Verizon, Spirent Communications, and Bed Bath and Beyond. Supervised and unsupervised learning, sentiment analysis, and deep learning. Code in Python, R, and C++ and use Hadoop, Spark, YARN, and other tools. Our software is currently in the second month of a six month testing period at Verizon where it will, once approved, route calls to the appropriate department based upon the caller's usage and service trends. Recent lay offs of the entire sales and marketing staff, regular late pay checks, and daily meetings of upper management behind closed doors suggest it is time to find new work.}
+
 \cventry{August 2015}{Instructor}{\textsc{The Ohio State University}}{Columbus}{}{Taught two summer classes: \textit{Essentials of Numerical Methods} and \textit{Introduction to Python Programming}.}
 
-\cventry{Jan 2015 - September 2015}{Modeler/Engineer}{\textsc{Battelle Memorial Institute}}{Columbus}{}{Development of powerful terrorism risk analysis tool in C++, Python and MPI. Co-Developer of Excel-based risk tool with rich functionality provided through VBA macros. Simple system administration tasks. Regular user of Oracle /  Postgres / Access DBs.}
+\cventry{Jan 2015 - September 2015}{Modeler/Engineer}{\textsc{Battelle Memorial Institute}}{Columbus}{}{Development of powerful terrorism risk analysis tool in C++, Python and MPI for the Department of Homeland Security. Used govenment data to make recommendations to security officials about where and how to tighten border security. Co-Developer of Excel-based risk tool with rich functionality provided through VBA macros. Simple system administration tasks. Regular user of Oracle /  Postgres / Access DBs. }
 
 \cventry{May 2014-September 2015}{GRE Instructor, Marketing Agent}{\textsc{The Princeton Review}}{Columbus}{}{Highly rated instructor. Presenter at marketing events.}
 
@@ -92,8 +98,10 @@
 %----------------------------------------------------------------------------------------
 %	EDUCATION SECTION
 %----------------------------------------------------------------------------------------
-
 \section{Education}
+\cventry{Pending}{Univerity of Delaware and Oak Ridge National Laboratory}{University of Delaware}{}{GPU Hackathon to improve performance of CRF code.}{}{}
+
+\cventry{Continuing}{Coursera and Udacity}{Online}{}{Taken courses in English, Spanish, and Portuguese in Fourier Analysis, CSS, HTML5, Javascript, Machine Learning, Reinforcement Learning, Big Data, Deep Learning}{}{}
 
 \cventry{Summer 2015}{Workshop and Tutorial on PETSc}{Argonne National Lab}{}{Learn to use the PETSc library for solving partial differential equations}{}{}
 
@@ -109,9 +117,9 @@
 
 \section{Academic Awards}
 \cvitem{2015}{Rhodes Graduate Fellowship for Computational Scientists, OSU}
-\cvitem{Summer 2014}{Travel grant from OSU to attend Scipy conference in Austin (scientific computing in Python conference.)}
+\cvitem{Summer 2014}{Travel grant from OSU to attend Scipy conference in Austin (scientific computing in Python conference)}
 \cvitem{2013-2014}{Graduate Fellowship, OSU}
-\cvitem{2012}{Grossnickle Scholarship, NJCU. For the senior with the highest GPA.}
+\cvitem{2012}{Grossnickle Scholarship, NJCU. For the senior with the highest GPA}
 \cvitem{2008-2012}{Presidential Scholarship (Full Tuition), NJCU}
 \cvitem{2011}{12th place out of approximately 100 at the Garden State Undergraduate Mathematics Contest}
 
@@ -121,14 +129,15 @@
 
 \section{Computer skills}
 \cvitem{Expert}{C++, Python. Knowledge of many scientific, mathematical, and graphics libraries.}
-\cvitem{Skilled}{CUDA, CLISP}
-\cvitem{Other}{Experience with other languages as work and school have demanded.}
+\cvitem{Skilled}{R, CUDA, CLISP, CAD and hardware simulator programs.}
+\cvitem{Other}{As we all do, I have experience with countless other languages as work and school have demanded. Please ask for more details.}
 
 %----------------------------------------------------------------------------------------
 %	COMMUNICATION SKILLS SECTION
 %----------------------------------------------------------------------------------------
 
 \section{Recent Presentations}
+\cvitem{2016}{Avlino. "Implementing Log Linear Models."}
 \cvitem{2015}{OSU and NJCU. "Implementing the Conjugate Gradient Method in Python: A Tutorial."}
 \cvitem{2015}{Battelle. "Finite Difference Methods for Modeling Diffusion."}
 \cvitem{2015}{Battelle. "Epithelial Tissue Simulation."}
@@ -156,7 +165,4 @@
 \renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
 \cvlistitem{Foreign languages with interesting movies and radio programs and rich literatures.}
 \cvlistitem{Dog training.}
-\cvlistitem{Raising my twin boys!}
-
-
 \end{document}
