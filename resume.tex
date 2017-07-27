@@ -46,11 +46,11 @@
 
 % All information in this block is optional, comment out any lines you don't need
 \title{Curriculum Vitae}
-\address{416 Plymouth Road}{North Brunswick, NJ 08902}
-\mobile{(201) 443 7660}
+\address{21 Dustin Rd. Warner, NH 03278}
+\mobile{(201) 889 4323}
 \email{melvyniandrag@gmail.com}
-\homepage{github.com/melvyniandrag}{}
-% \quote{"The world was so new that many things lacked names, and to mention them one had to point with his finger." - GGM}
+\homepage{melvyniandrag.github.io}{}
+\quote{"The world was so new that many things lacked names, and to mention them one had to point with his finger." - GGM}
 
 %----------------------------------------------------------------------------------------
 
@@ -60,33 +60,36 @@
 
 \section{Highlights}
 \begin{itemize}
-\item Python, C++, Scala, Hadoop Stack.
-\item Expertise in natural language processing.
-\item Solid knowledge of data structures and algorithms.
-\item Advanced knowledge of cutting-edge clustering algorithms and topological data analysis.
-\item Everyday linux user.
-\item Love unittesting. 
-\item Suspicious of global variables.
+\item Aspire to solve a major ecological problem plaguing the Northeastern US, and steadfastly developing skills and making connections to realize the dream.
+\item C++, Python,and other languages as needed.
+\item Former chief data scientist specializing in natural language processing problems.
+\item Experience handling relations with high-profile telecom clients.
+\item Former statistical computer programmer at Battelle, a major DOD government contractor.
+\item Currently an embedded systems developer at DEKA Research \& Development working on medical devices.
+\item Masters degree in computational mathematics from Ohio State University with specializations in computational PDEs and biological simulation.
+\item Vim, not emacs.
 \end{itemize}
 
 \section{Sample Programming Projects}
-\cvitem{Epithelium}{Master's Thesis. Simulator of the development of epithelial tissue. Code solves a complicated system of differential equations to evolve the appearance of a tissue and drive the cells to an equilibrium configuration. Uses a number of libraries and programs to make simple animations.}
-\cvitem{NLTK}{Read most of the library code and submitted bug fixes.}
-\cvitem{Kaggle Contests}{Participant in Kaggle contests. Code is available on my github.}
-\cvitem{CRF}{A machine learning classifier which produces very good predictions when given suitably preprocessed data. Written in C++, Python, and R, and makes calls to linear algebra libraries written in Fortran. Written while at Avlino Inc..}
+\cvitem{[Secret] Django application}{ This work has spanned several years and we are in the process of finalizing the sale of all IP to an interested company that is better able handle marketing and continued maintenance. As the software is being sold I cannot disclose any serious details about it, but I can explain the steps I took to take a thought I had from dream to reality and the technologies the team used. The site is a \textit{full stack} project which I envisioned, storyboarded, and then recruited a team of developers for. The site uses Django (1.9 - we spent a long time deciding which version to use!), Python, C++, OpenCV, LaTex, HTML, CSS, Javascript, Postgres, and more. The entire process of installing needed packages and configuring the database is fully automated so bringing the website up on a new server is simply a matter of installing an os and then running a bash script. We have brought the site up on a number of different AWS instances.}
+\cvitem{Priority Queue Hospital}{A C++ project I worked on while preparing for interviews. Uses as many language features and STL containers as possible, illustrates the purpose of several data structures, and uses SDL2 for animation.}
+\cvitem{Epithelium}{Master's Thesis. Simulator of the development of epithelial tissue. Code solves a complicated system of differential equations to evolve the appearance of a tissue and drive the cells to an equilibrium configuration. Generates animations of the tissue morphogenesis.}
+\cvitem{Kaggle Contests}{Participant in Kaggle data science contests. Code is available on my github.}
 \cvitem{Heat Solver}{PDE solver with many visualization options. Solves the heat equation in 1 and 2 dimensions. I presented this code as a tutorial at the PyOhio conference in 2014, and the video can be seen online. I still regularly get emails from people all over the US, Europe and South America using my code for their research or teaching.}
-\cvitem{Priority Queue Hospital}{I hadn't had a reason to use a priority queue in a while, so I wrote a program in C++ and SDL which uses this data structure. There is a graphical presentation of a hospital waiting room with patients with a variety of illnesses. The patients continuously arrive and a priority queue structure has a `doctor attend to the patient with the most pressing need'. Patients live and die at the mercy of the heap.}
-\cvitem{8 Color Network}{Network analysis tool for studying the evolution of unstructured networks with local interactions. Default edge function is a smoothing operator that drives the colors of all nodes to one one color.}
+\cvitem{8 Color Network}{Network analysis tool for with a gui for studying the evolution of unstructured networks with local interactions. Python and tkinter.}
 \cvitem{Python Chess}{Implemented advanced moves such as pawn promotion in an unfinished game found on github.}
-\cvitem{Assault Cube - MyMod}{Modified version of a popular first person shooter. Added maps, changed physics, modified graphics, etc.}
+\cvitem{NLTK}{Read most of the library code, spoke with authors, and submitted bug fixes.}
+
 %----------------------------------------------------------------------------------------
 %	WORK EXPERIENCE SECTION
 %----------------------------------------------------------------------------------------
 
 \section{Relevant Work Experience}
-\cventry{October 2015 - Present}{Lead Data Scientist}{\textsc{Avlino, Inc.}}{Holmdel, NJ}{}{Principal developer of machine learning software at a growing startup. Lead a team of junior employees, encouranging good software practices like automated testing, clean code writing, and use of version control with verbose commit messages. Code in Python, R, and C++ and use Hadoop, Spark, MapReduce, and other tools. Our software recently caused a strike at a major telecommunications company because it automated too many jobs.}
+\cventry{February 2017 - Present}{Software Engineer}{\textsc{DEKA Research \& Development}}{Manchester, NH}{}{ Working on low level and middleware for innovative medical devices. While I cannot talk about the specifics of the machines I work on, I can sketch what type of work I do. I was hired to rewrite a system-critical library written in C in a more easily digestible OO C++ style. This task has required my full 40 hours a week for about six months as I had to not only redesign a library but also modify every call to its functions in every process in our stack that used it. I also had to produce documentation, unittests, integration tests, and verify that timing requirements were satisfied. Another aspect of the project was to eliminate the use of all UTF16 encoded strings and replace them with UTF8 strings (this was no small feat! You could contact Mark Niemeyer, a senior dev at the company who just recently reviewed my work. He apologized for having assigned me this task since he hadn't realized just how much code was going to need to be rewritten. He thanked me for getting the job done quickly and without complaining - this was one of the most satisfying professional compliments I have ever received. ).}
 
-\cventry{August 2015}{Instructor}{\textsc{The Ohio State University}}{Columbus}{}{Taught two summer classes: \textit{Essentials of Numerical Methods} and \textit{Introduction to Python Programming}.}
+\cventry{October 2015 - February 2017}{Lead Data Scientist}{\textsc{Avlino, Inc.}}{Holmdel, NJ}{}{Principal developer of machine learning software at a growing startup. Specialized in summarization and classification of terabytes of social media data. Led a team of junior employees, encouranging good software practices like automated testing, clean code writing, and use of version control with verbose commit messages. Coded in Python, R, Scala and C++ and used Hadoop, Spark, MapReduce, and other tools as needed. Our software caused a strike at a major telecommunications company because it automated too many jobs.}
+
+\cventry{August 2015}{Instructor}{\textsc{The Ohio State University}}{Columbus}{}{Taught two summer classes: \textit{Essentials of Numerical Methods} and \textit{Introduction to Python Programming}. Materials I developed for the course can be found on my github page.}
 
 \cventry{Jan 2015 - September 2015}{Modeler/Engineer}{\textsc{Battelle Memorial Institute}}{Columbus}{}{Development of powerful terrorism risk analysis tool in C++, Python and MPI for the Department of Homeland Security. Co-Developer of Excel-based risk tool with rich functionality provided through VBA macros. Simple system administration tasks. Regular user of Oracle /  Postgres / Access DBs. Strong reference from accomplished statistician supervisor with whom I worked closely on several projects.}
 
@@ -131,10 +134,7 @@
 %----------------------------------------------------------------------------------------
 
 \section{Computer skills}
-\cvitem{Languages}{Python, C++, Scala, bash}
-\cvitem{Version Control}{git, SVN}
-\cvitem{Other tech}{Hadoop Stack, Windows, Redhat, Debian.}
-\cvitem{Other}{This isn't an exhaustive list. Just use whatever tool is good for the job.}
+\cvitem{I use}{ Whatever tool is suitable for the job. I really like C++, Python, Scala, git, SVN, Linux and Vim, though.}
 
 %----------------------------------------------------------------------------------------
 %	COMMUNICATION SKILLS SECTION
@@ -143,7 +143,6 @@
 \section{Recent Presentations}
 \cvitem{2016}{Avlino. "Implementing Log Linear Models."}
 \cvitem{2015}{OSU and NJCU. "Implementing the Conjugate Gradient Method in Python: A Tutorial."}
-\cvitem{2015}{Battelle. "Finite Difference Methods for Modeling Diffusion."}
 \cvitem{2015}{Battelle. "Epithelial Tissue Simulation."}
 \cvitem{2014}{PyOhio conference. "Solving the Heat Equation in Python".}
 \cvitem{2014}{Columbus Code Camp. "Soft Error Vulnerability in Sparse Matrix Vector Products".}
@@ -158,8 +157,8 @@
 \section{Languages}
 
 \cvitemwithcomment{English}{Mothertongue}{}
-\cvitemwithcomment{Spanish} {Fluent}{}
-\cvitemwithcomment{Portuguese, Italian}{Reading and Listening Proficiency.}{}
+\cvitemwithcomment{Spanish}{Fluent}{}
+\cvitemwithcomment{Portuguese}{Reading and Listening Proficiency.}{}
 
 %----------------------------------------------------------------------------------------
 %	INTERESTS SECTION
