@@ -1,0 +1,88 @@
+\documentclass[11pt, a4paper]{awesome-cv}
+
+%%% Override a directory location for fonts(default: 'fonts/')
+\fontdir[fonts/]
+
+%%% Configure a directory location for sections
+\newcommand*{\sectiondir}{cv/}
+
+%%% Override color
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+%% Color for highlight
+% Define your custom color if you don't like awesome colors
+\colorlet{awesome}{awesome-red}
+%\definecolor{awesome}{HTML}{CA63A8}
+%% Colors for text
+%\definecolor{darktext}{HTML}{414141}
+%\definecolor{text}{HTML}{414141}
+%\definecolor{graytext}{HTML}{414141}
+%\definecolor{lighttext}{HTML}{414141}
+
+%%% Override a separator for social informations in header(default: ' | ')
+%\headersocialsep[\quad\textbar\quad]
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Personal Data
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Essentials
+\name{Melvyn}{Drag}
+\address{21 Dustin Rd. Unit 2, Warner, NH 03278}
+\mobile{603.724.1451} 
+%%% Social
+\email{melvyniandrag@gmail.com}
+\homepage{www.melvyniandrag@github.io}
+\github{melvyniandrag}
+%%% Optionals
+\position{C++{\enskip\cdotp\enskip}Python{\enskip\cdotp\enskip}Embedded Linux{\enskip\cdotp\enskip}Microcontrollers{\enskip\cdotp\enskip}Speak a Few Languages}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Letter Data (Cover Letter)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\recipient
+  {Dr. Pramod Abichandani}
+  {NJIT ECET / ECE Department \\ University Heights \\ Newark, NJ 07102}
+\letterdate{\today}
+\lettertitle{Hourly RADLab Programmer}
+\letteropening{Dear Dr. Abichandani,}
+\letterclosing{With Bated Breath,}
+\letterenclosure[Attached]{Resume}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Content
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Make a footer for CV with three arguments(<left>, <center>, <right>)
+\makecvfooter
+  {\today}
+  {Melvyn Ian Drag~~~·~~~Cover Letter}
+  {}
+
+\begin{document}
+%%% Make a header for CV using personal data
+\makecvheader
+
+%%% Make a title for Cover Letter using letter data
+\makelettertitle
+
+%%% Write content for your cover letter
+\begin{cvletter}
+\lettersection{Dream To Reality}
+My main dream as a programmer is to win the MicroTransat contest with a sailboat that navigates using the stars, the sun, and the moon. To that end I've studied math and computer science and worked in a few positions that have given me exposure to the relevant technologies( OSes, a bunch of different chips and sensors, different programming paradigms ). My vision is roughly to use a combination of a drone and boat to take pictures of the sky, process the pictures, determine geographic location, and adjust the boat's sails accordingly. In my free time I keep journals of the sun, moon, and stars positions to develop familiarity with the patterns the camera will need to expect and process. 
+
+\lettersection{The RADLab}
+
+The RADLab seems like a place where I'd contribute alot and learn even more. I'm very interested in your work with AUVs and mapping robots ( though it looks like those were your projects at Drexel? ) and I would be very happy to work on any similar robotics task! I'm avidly interested in your MatDuino project as well - I teach Arduino classes at the Manchester Makerspace and play with my chipKit uno32 whenever I have free time. I'm also curious about your company LocoRobo as I've worked a bit with the folks designing the FIRST robot kits at DEKA. If you work with the Jetson boards that would be a really welcome surprise. At the very least I'm eager to work alongside a bunch of like-minded people on something in the robotics domain.
+
+\lettersection{But You're In New Hampshire!}
+
+I've finished 99\% of the documentation and testing work for the machine subsystems I coded at DEKA. The development phase is done and we'll be starting clinical trials attached to living people soon. My wife moved to NJ a couple of weeks ago to pursue a great teaching opportunity in Newark ( she didn't like the rural life too much ) and I'm itching to get down there! This is an opportune moment to leave DEKA on the very best of terms, and I could be in NJ with two weeks' notice. On the side I'm working on two freelance contracts ( that have no conflict of interest with RADLab work ), so the fact that the position is part-time doesn't bother me at all. For months I've been receiving calls from recruiters and avidly following Indeed.com. The RADLab position is singly the most interesting job I've come across, and it's the first to move me to immediate action.
+
+\end{cvletter}
+
+%%% Make a closing for Cover Letter using letter data
+\makeletterclosing
+
+\end{document}
+
