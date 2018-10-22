@@ -61,7 +61,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-\namesection{Melvyn}{Drag}{ \urlstyle{same}\url{calistostudios.com} \\
+\namesection{Melvyn}{Drag}{ \urlstyle{same}\url{melvyniandrag.github.io} \\
 \href{mailto:melvyniandrag@gmail.com}{melvyniandrag@gmail.com} | 603.724.1451
 }
 
@@ -80,7 +80,7 @@
 \section{Education} 
 
 \subsection{Ohio State University}
-\descript{Master of Mathematical Science}
+\descript{Master of Mathematical Sc.}
 \location{2013-2015 | Columbus, OH}
 Specialty in Computational Science \\
 Full Scholarship + Grants
@@ -88,14 +88,14 @@ Full Scholarship + Grants
 
 \subsection{ NJCU }
 \descript{BA in Mathematics}
-\location{2012 | Jersey City, NJ}
-Math, Science, Linguistics.\\
+\location{ 2008-2012 | Jersey City, NJ}
+Math, Spanish.\\
 Full Scholarship
 \sectionsep
 
 \subsection{Bayonne High School }
 \location{2006 |  Bayonne, NJ }
-AP Math, English, History \\
+AP Math, Science, English, History \\
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -104,9 +104,7 @@ AP Math, English, History \\
 
 \section{Links} 
 Github:// \href{https://github.com/melvyniandrag}{\custombold{melvyniandrag}} \\
-LinkedIn://  \href{https://www.linkedin.com/in/melvyn-ian-drag-374613107/}{\custombold{melvyn-ian-drag}} \\
 YouTube://  \href{https://www.youtube.com/results?search_query=Melvyn+Drag}{\custombold{Melvyn Drag}} \\
-Blog://  \href{https://www.melvyniandrag.github.io}{\custombold{melvyniandrag}} \\
 Instructables:// \href{https://www.instructables.com/member/MelvynD/}{\custombold{MelvynD}}
 \sectionsep
 
@@ -144,7 +142,7 @@ C++ \textbullet{}   Python \textbullet{} Vim \textbullet{} Linux \textbullet{} e
 \section{Talks}
 \subsection{Python Conferences}
 Solving the Heat Equation in Python \\
-Intro to the DBus in Python
+... More Coming Soon ...
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -162,30 +160,35 @@ Intro to the DBus in Python
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Work Experience}
-
-\runsubsection{DEKA Research And Development}
+\runsubsection{Freelancer}
 \descript{| Software Engineer }
-\location{ Feb. 2017 - Present | Manchester, NH}
+\location{ Jun. 2018 - Present | Union City, NJ}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightemize}
-\item Medical Devices
-\item Wrote Linux/DBus/Bluez5/Android8 Bluetooth software
+\item Embedded linux projects
+\item Full stack projects
+\end{tightemize}
+\sectionsep
+
+\runsubsection{DEKA Research And Development}
+\descript{| Embedded Medical Software }
+\location{ Feb. 2017 - Oct. 2018 | Manchester, NH}
+\begin{tightemize}
 \item Researched and wrote elliptic curve encryption code
 \item Overhauled whole stack to port from UTF-16 to UTF-8
 \item Wrote concurrent, resource contrained SQL library in C++
-\item Extensive unittesting and documentation
+\item Extensive unittesting and documentation to FDA standards
+\item Wrote Linux/DBus/Bluez5/Android8 Bluetooth software
 \end{tightemize}
 \sectionsep
 
 \runsubsection{Avlino}
-\descript{| Data Scientist }
+\descript{| Lead Data Scientist }
 \location{Sep. 2015 - Feb. 2017 | Holmdel, NJ}
 \begin{tightemize}
 \item Researched algorithms, implemented in C++, Python and Spark
-\item Read and tweaked open source libraries to suit our needs
 \item Maintained hadoop cluster
 \item Produced business value from tera bytes of social media data
-\item Lead a team of junior devs. in software best practices
 \end{tightemize}
 \sectionsep
 
@@ -194,7 +197,7 @@ Intro to the DBus in Python
 \location{Jan. 2015 – Sep. 2015 | Columbus, OH }
 \begin{tightemize}
 \item Wrote and maintained terrorist risk analysis software in R, C++ and Excel VBA
-\item Ported Access DBs to Postres
+\item Ported Access DBs to Postgres
 \item Prepared presentations for senior devs to deliver to government officials
 \end{tightemize}
 \sectionsep
@@ -207,7 +210,7 @@ Intro to the DBus in Python
 \runsubsection{The Sotomayor Lab}
 \descript{| Research Assistant}
 \location{ Jun. 2013 - Jul. 2015 | Columbus, OH}
-Researched the development and wound healing properties of epithelial tissues. Wrote C++/Python/Linux code to represent a tissue as a mesh of vertices and edges. Applied differential equations to the vertices and caused the tissue to deform in life-like ways. Studied the beautiful geometry of epithelial tissue.
+Researched the development and wound healing properties of epithelial tissues. C++/Python/Linux tissue simulation. Differential equations on mesh vertices deform the tissue in life-like ways.
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -215,31 +218,26 @@ Researched the development and wound healing properties of epithelial tissues. W
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Recent Projects \& Activities}
+
+\runsubsection{mathtestmaker.com}
+\descript{| Founder }
+Full Stack. Makes math tests + solution manuals with randomly generated numbers. Python, Django, Docker, Bootstrap, \LaTeX etc..
+\sectionsep
+
 \runsubsection{Manchester Makerspace}
 \descript{| Class Teacher, Maker}
-Robotics, microcontroller programming, 3d printing, and welding.
+Arduino programming instructor. Various hobby projects.
 \sectionsep
 
-\runsubsection{Calisto Studios}
-\descript{| Founder }
-Website. Create and automatically grade math exams with comp. vis. Global summary stats. C++, Python, d3, OpenCV, docker, etc.
+\runsubsection{Godot Game Engine}
+\descript{| Open Source Contributor }
+Contributing to godotBluetooth Android library. Godot game engine documentation.
 \sectionsep
 
-\runsubsection{Color Player Piano}
+\runsubsection{Video Games}
 \descript{| Maker }
-Made a piano that plays music by reading colors.
-\sectionsep
-
-\textbf{\runsubsection{Swing Bot}
-\descript{| Maker }
-Made a robot that swings. Uses an Arduino, accelerometer, servos, and swings like a child. Communicates over I2C.
-\sectionsep}
-
-\runsubsection{Hackerrank, Project Euler, Kaggle, Etc.}
-\descript{| Participant }
-Maintiain strong coding skills through regular involvement in online contests and activites on hackerrank, Project Euler, Kaggle, and other sites.
-\sectionsep
+Flappy Bird and Timberman games released on the Google Playstore as ``julianCienfuegos''. Several pending titles to be released as ``
+Ball of Knives Game Studio''.
 
 \end{minipage} 
-\end{document}  \documentclass[]{article}
-
+\end{document} 
